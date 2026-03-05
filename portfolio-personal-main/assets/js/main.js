@@ -108,3 +108,23 @@ tl.from('.home__social-icon', {
     stagger: .2,
     ease: "expo.out"
 }, "-=1");
+
+/* SKILLS ANIMATION ON SCROLL */
+const skillSection = document.querySelector("#skills");
+const skillBars = document.querySelectorAll(".skills__progress");
+
+const showSkills = () => {
+    const sectionTop = skillSection.getBoundingClientRect().top;
+    const triggerPoint = window.innerHeight - 100;
+
+    if(sectionTop < triggerPoint){
+        skillBars.forEach(bar => {
+            const width = bar.getAttribute("data-width");
+            bar.style.width = width;
+        });
+        window.removeEventListener("scroll", showSkills);
+    }
+}
+
+window.addEventListener("scroll", showSkills);
+

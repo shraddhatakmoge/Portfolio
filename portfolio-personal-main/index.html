@@ -18,7 +18,24 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#home" class="nav__logo">Bedimcode</a>
+                <a href="#home" class="nav__logo">
+                    <span class="logo-text">Shraddha</span>
+                    <span class="logo-dot">.</span>
+                </a>
+
+                <div class="nav__social anime-text">
+                    <a href="https://www.linkedin.com/in/shraddha-takmoge/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+
+                    <a href="https://github.com/shraddhatakmoge" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+
+                    <a href="https://www.instagram.com/being_shra/" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
             </div>
 
             <div class="nav__menu" id="nav-menu">
@@ -26,6 +43,7 @@
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#achievements" class="nav__link">Achievements</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                     <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
@@ -49,30 +67,24 @@
                 <span class="home__skill anime-text">Aspiring Data Analyst</span>
                 
                 <div>
-                    <a href="#" class="home__button anime-text">DOWNLOAD CV</a>
+                    <a href="assets/DATA ANA-shraddha_resume.pdf" class="home__button anime-text" download="Shraddha_Takmoge_CV">DOWNLOAD CV</a>
                 </div>
             </div>
 
             <div class="home__img">
                 <img src="assets/img/img.jpeg" alt="">
             </div>
-            
-            <div class="home__social">
-                <a href="https://www.linkedin.com/in/shraddha-takmoge/" target="_blank">
-                    <ion-icon name="logo-linkedin" class="home__social-icon"></ion-icon>
-                </a>
 
-                <a href="https://github.com/shraddhatakmoge" target="_blank">
-                    <ion-icon name="logo-github" class="home__social-icon"></ion-icon>
-                </a>
-
-                <a href="https://www.instagram.com/being_shra/" target="_blank">
-                    <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
-                </a>
+            <div class="home__exploring anime-text">
+                <span class="explore__label">Currently Exploring</span>
+                <div class="explore__tags">
+                    <span>Machine Learning</span>
+                    <span>Advanced SQL</span>
+                    <span>spaCy</span>
+                </div>
             </div>
 
         </section>
-
 
 <!-- ================= ABOUT ================= -->
 <section class="section about" id="about">
@@ -80,34 +92,25 @@
 
     <div class="about__container bd-grid">
 
-        <!-- LEFT SIDE -->
         <div class="about__content">
             <h3 class="about__subtitle">
                 Turning Data Into Decisions.
             </h3>
 
-            <p class="about__text">
+            <p class="about__text1">
                 I am an aspiring Data Analyst passionate about transforming raw data 
                 into meaningful insights. I enjoy exploring patterns, building dashboards, 
                 and solving real-world business problems using data-driven approaches.
             </p>
 
-            <p class="about__text">
+            <p class="about__text2">
                 With hands-on experience in Excel, SQL, Python, and Power BI, 
                 I focus on delivering clear, actionable insights that support 
                 smarter business decisions.
             </p>
-
-            <div class="about__highlights">
-                <span>✔ Data Cleaning & Analysis</span>
-                <span>✔ Dashboard Creation</span>
-                <span>✔ Business Insights</span>
-            </div>
         </div>
 
-        <!-- RIGHT SIDE -->
         <div class="about__stats">
-
             <div class="about__card">
                 <h3>4+</h3>
                 <span>Tools Mastered</span>
@@ -122,61 +125,196 @@
                 <h3>100%</h3>
                 <span>Dedication</span>
             </div>
-
         </div>
 
     </div>
 </section>
 
-        <!-- ================= SKILLS ================= -->
-        <section class="section" id="skills">
-            <h2 class="section-title">Skills</h2>
+<!-- ================= SKILLS ================= -->
+<section class="section skills" id="skills">
+    <h2 class="section-title">Skills</h2>
 
-            <div class="skills__container bd-grid">
+    <div class="skills__container bd-grid">
 
-                <div class="skills__data">
-                    <span>Excel</span>
-                    <span>90%</span>
-                </div>
-
-                <div class="skills__data">
-                    <span>SQL</span>
-                    <span>85%</span>
-                </div>
-
-                <div class="skills__data">
-                    <span>Python</span>
-                    <span>75%</span>
-                </div>
-
-                <div class="skills__data">
-                    <span>Power BI</span>
-                    <span>80%</span>
-                </div>
-
+        <div class="skills__box">
+            <h3 class="skills__title">Python</h3>
+            <div class="skills__bar">
+                <div class="skills__progress" data-width="75%"></div>
             </div>
-        </section>
+            <span class="skills__percentage">75%</span>
+        </div>
 
-
-        <!-- ================= PROJECTS ================= -->
-        <section class="section" id="projects">
-            <h2 class="section-title">Projects</h2>
-
-            <div class="bd-grid">
-                <p>Project section coming soon...</p>
+        <div class="skills__box">
+            <h3 class="skills__title">SQL</h3>
+            <div class="skills__bar">
+                <div class="skills__progress" data-width="85%"></div>
             </div>
-        </section>
+            <span class="skills__percentage">85%</span>
+        </div>
 
-
-        <!-- ================= CONTACT ================= -->
-        <section class="section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="bd-grid">
-                <p>Email: your.email@example.com</p>
-                <p>LinkedIn: linkedin.com/in/shraddha-takmoge</p>
+        <div class="skills__box">
+            <h3 class="skills__title">Power BI</h3>
+            <div class="skills__bar">
+                <div class="skills__progress" data-width="80%"></div>
             </div>
-        </section>
+            <span class="skills__percentage">80%</span>
+        </div>
+
+        <div class="skills__box">
+            <h3 class="skills__title">Advanced Excel</h3>
+            <div class="skills__bar">
+                <div class="skills__progress" data-width="90%"></div>
+            </div>
+            <span class="skills__percentage">80%</span>
+        </div>
+
+        <div class="skills__box">
+            <h3 class="skills__title">ML Fundamentals</h3>
+            <div class="skills__bar">
+                <div class="skills__progress" data-width="70%"></div>
+            </div>
+            <span class="skills__percentage">70%</span>
+        </div>
+
+        <div class="skills__box">
+            <h3 class="skills__title">Libraries (Pandas, NumPy, Matplotlib, Scikit-Learn)</h3>
+            <div class="skills__bar">
+                <div class="skills__progress" data-width="85%"></div>
+            </div>
+            <span class="skills__percentage">85%</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= ACHIEVEMENTS ================= -->
+<section class="section achievements" id="achievements">
+    <h2 class="section-title">Achievements</h2>
+
+    <!-- ================= HACKATHON ================= -->
+    <div class="achievement-wrapper">
+
+        <div class="achievement-content">
+    <span class="achievement-tag">🏆 Hackathon Experience</span>
+    
+    <h2>Code4Change Hackathon</h2>
+    
+    <p>
+        Collaborated with a passionate team to design 
+        <span class="highlight">innovative real-world solutions</span> 
+        addressing impactful social challenges. This experience enhanced my 
+        <span class="highlight">problem-solving mindset</span> and 
+        strengthened my ability to present technical ideas confidently.
+    </p>
+
+    <div class="achievement-points">
+        <div class="point">✔ Team-Based Problem Solving</div>
+        <div class="point">✔ Real-World Solution Development</div>
+        <div class="point">✔ Technical Presentation Skills</div>
+        <div class="point">✔ Certificate of Participation</div>
+    </div>
+</div>
+
+        <div class="achievement-gallery">
+            <img src="assets/img/hack1.jpeg" alt="">
+            <img src="assets/img/hack2.jpeg" alt="">
+            <img src="assets/img/hack3.jpeg" alt="">
+            <img src="assets/img/hack4.jpeg" alt="">
+        </div>
+
+    </div>
+
+    <!-- ================= AMADEUS ================= -->
+    <div class="achievement-wrapper reverse">
+
+       <div class="achievement-content right-side">
+    
+    <span class="achievement-tag corporate">🏢WIE Program</span>
+
+    <h2>Amadeus Company Visit</h2>
+
+    <p class="lead-text">
+        Selected under the <span class="highlight">Women in Engineering Scholarship Program(WIE)</span>, 
+        I had the opportunity to visit <span class="highlight">Amadeus</span> — 
+        a global leader in travel technology.
+    </p>
+
+    <p>
+        During the visit, I engaged with industry professionals, explored 
+        enterprise-level systems, and gained real-world insights into 
+        large-scale software solutions powering the aviation industry.
+    </p>
+
+    <div class="achievement-points">
+        <div class="point">✔ Industry Exposure</div>
+        <div class="point">✔ Corporate Mentorship Interaction</div>
+        <div class="point">✔ Enterprise Software Insights</div>
+        <div class="point">✔ Professional Networking</div>
+    </div>
+
+</div>
+        <div class="achievement-gallery">
+            <img src="assets/img/amadeus3.jpeg" alt="">
+            <img src="assets/img/amadeus2.jpeg" alt="">
+            <img src="assets/img/amadeus1.jpeg" alt="">
+            <img src="assets/img/amadeus4.jpeg" alt="">
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= CONTACT ================= -->
+<section class="section contact" id="contact">
+    <h2 class="section-title">Let’s Work Together</h2>
+
+    <div class="contact__subtitle">
+        <p>I’m open to Data Analyst & Machine Learning opportunities.</p>
+        <p>Feel free to reach out — I’d love to connect!</p>
+    </div>
+
+    <div class="contact__container bd-grid">
+
+        <!-- EMAIL CARD -->
+        <div class="contact__card">
+            <div class="contact__icon">
+                <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <h3>Email</h3>
+            <a href="mailto:shraddhatakmoge@gmail.com">
+                shraddhatakmoge@gmail.com
+            </a>
+        </div>
+
+        <!-- LINKEDIN CARD -->
+        <div class="contact__card">
+            <div class="contact__icon">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+            <h3>LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/shraddha-takmoge/" target="_blank">
+                linkedin.com/in/shraddha-takmoge
+            </a>
+        </div>
+
+        <!-- GITHUB CARD -->
+        <div class="contact__card">
+            <div class="contact__icon">
+                <ion-icon name="logo-github"></ion-icon>
+            </div>
+            <h3>GitHub</h3>
+            <a href="https://github.com/shraddhatakmoge" target="_blank">
+                github.com/shraddhatakmoge
+            </a>
+        </div>
+
+    </div>
+
+    <div class="contact__resume">
+        <a href="#" class="contact__btn">
+            Download Resume
+        </a>
+    </div>
+</section>
 
     </main>
 
