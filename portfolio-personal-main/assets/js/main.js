@@ -128,3 +128,12 @@ const showSkills = () => {
 
 window.addEventListener("scroll", showSkills);
 
+// Close mobile menu when clicking a link
+const navLinks = document.querySelectorAll('.nav__link');
+const navMenu = document.getElementById('nav-menu');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    navMenu.classList.remove('show');
+  });
+});
