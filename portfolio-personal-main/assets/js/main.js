@@ -137,3 +137,18 @@ navLinks.forEach(link => {
     navMenu.classList.remove('show');
   });
 });
+
+document.addEventListener("mousemove", (e) => {
+  document.body.style.setProperty("--mouse-x", `${e.clientX}px`);
+  document.body.style.setProperty("--mouse-y", `${e.clientY}px`);
+});
+
+document.querySelectorAll(
+  ".skills__category, .project__card, .achievement-wrapper, .contact__card"
+).forEach(card => {
+  card.addEventListener("mousemove", (e) => {
+    const rect = card.getBoundingClientRect();
+    card.style.setProperty("--x", `${e.clientX - rect.left}px`);
+    card.style.setProperty("--y", `${e.clientY - rect.top}px`);
+  });
+});
