@@ -2,11 +2,7 @@
 SKILLS
 ==========================================*/
 
-.skills{
 
-    background:var(--bg-secondary);
-
-}
 
 /*==========================================
 GRID
@@ -30,7 +26,7 @@ CARD
 
 .skill-card{
 
-    background:var(--bg-card);
+    /* background:var(--bg-card); */
 
     border:1px solid var(--border-color);
 

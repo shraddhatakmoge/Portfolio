@@ -72,7 +72,7 @@ MILESTONES
 
     flex:1;
 
-    background:var(--bg-card);
+    /* background:var(--bg-card); */
 
     padding:2rem;
 
@@ -222,7 +222,7 @@ MODAL
 
     overflow-y:auto;
 
-    background:var(--bg-card);
+    /* background:var(--bg-card); */
 
     border-radius:24px;
 
