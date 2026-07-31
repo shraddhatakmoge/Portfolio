@@ -1,0 +1,264 @@
+/* ==========================================
+   LAYOUT
+========================================== */
+
+/* Main Wrapper */
+
+.main{
+    overflow:hidden;
+}
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.container{
+    width:min(var(--container-width),92%);
+    margin-inline:auto;
+}
+
+/* ==========================================
+   SECTIONS
+========================================== */
+
+.section{
+    padding:var(--section-padding) 0;
+    position:relative;
+}
+
+.section:first-child{
+    padding-top:calc(var(--header-height) + 3rem);
+}
+
+/* ==========================================
+   SECTION TITLE
+========================================== */
+
+.section__header{
+    text-align:center;
+    margin-bottom:5rem;
+}
+
+.section__subtitle{
+
+    display:inline-block;
+
+    font-size:var(--fs-sm);
+
+    color:var(--primary);
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+    margin-bottom:1rem;
+
+}
+
+.section__title{
+
+    font-size:clamp(2.2rem,5vw,4rem);
+
+    font-weight:var(--fw-bold);
+
+    color:var(--text-primary);
+
+    margin-bottom:1rem;
+
+}
+
+.section__description{
+
+    max-width:650px;
+
+    margin-inline:auto;
+
+    color:var(--text-secondary);
+
+    font-size:var(--fs-lg);
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.grid{
+    display:grid;
+}
+
+.grid-2{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:4rem;
+}
+
+.grid-3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:2rem;
+}
+
+.grid-4{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:2rem;
+}
+
+/* ==========================================
+   FLEX
+========================================== */
+
+.flex{
+    display:flex;
+}
+
+.flex-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.flex-between{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction:column;
+}
+
+/* ==========================================
+   GAP UTILITIES
+========================================== */
+
+.gap-1{
+    gap:1rem;
+}
+
+.gap-2{
+    gap:2rem;
+}
+
+.gap-3{
+    gap:3rem;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.card{
+
+    background:var(--bg-card);
+
+    border:1px solid var(--border-color);
+
+    border-radius:var(--radius-xl);
+
+    padding:2rem;
+
+}
+
+/* ==========================================
+   BUTTON GROUP
+========================================== */
+
+.button-group{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:1rem;
+
+    flex-wrap:wrap;
+
+}
+
+/* ==========================================
+   SPACING HELPERS
+========================================== */
+
+.mt-1{margin-top:1rem;}
+.mt-2{margin-top:2rem;}
+.mt-3{margin-top:3rem;}
+
+.mb-1{margin-bottom:1rem;}
+.mb-2{margin-bottom:2rem;}
+.mb-3{margin-bottom:3rem;}
+
+.py-2{
+    padding-block:2rem;
+}
+
+.py-4{
+    padding-block:4rem;
+}
+
+.text-center{
+    text-align:center;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1024px){
+
+.grid-2{
+
+grid-template-columns:1fr;
+
+}
+
+.grid-3{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.grid-4{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.container{
+
+width:94%;
+
+}
+
+.section{
+
+padding:5rem 0;
+
+}
+
+.grid-3,
+.grid-4{
+
+grid-template-columns:1fr;
+
+}
+
+.button-group{
+
+justify-content:center;
+
+}
+
+.section__header{
+
+margin-bottom:3rem;
+
+}
+
+}

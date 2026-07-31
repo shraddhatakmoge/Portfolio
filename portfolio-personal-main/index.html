@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/main.css">
     <title>Portfolio</title>
     <link rel="icon" type="image/png" href="assets/img/ChatGPT Image Jun 21, 2026, 11_38_19 AM.png">
 </head>
@@ -16,572 +16,898 @@
     <div class="overlay third"></div>
 
     <!-- HEADER -->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#home" class="nav__logo">
-                    <span class="logo-text">Shraddha</span>
-                    <span class="logo-dot">.</span>
-                </a>
+    <!-- ================= HEADER ================= -->
 
-                <div class="nav__social anime-text">
-                    <a href="https://www.linkedin.com/in/shraddha-takmoge/" target="_blank">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
+<!-- ================= HEADER ================= -->
 
-                    <a href="https://github.com/shraddhatakmoge" target="_blank">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
+<header class="header">
 
-                    <a href="https://www.instagram.com/being_shra/" target="_blank">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a>
-                </div>
-            </div>
+    <div class="container">
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#achievements" class="nav__link">Milestones</a></li>
-                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-            </div>
+        <nav class="navbar">
 
-            <div class="nav__toggle" id="nav-toggle">
-                <ion-icon name="menu"></ion-icon>
-            </div>
+            <!-- Logo -->
+
+            <a href="#home" class="logo">
+                Shraddha<span>.</span>
+            </a>
+
+            <!-- Navigation -->
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="#home" class="active">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+
+                
+                <li>
+                    <a href="#milestones">Milestones</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+            <!-- Mobile Menu -->
+
+            <button class="menu-btn">
+
+                ☰
+
+            </button>
+
         </nav>
-    </header>
 
+    </div>
+
+</header>
     <!-- MAIN -->
-    <main class="l-main">
+    <main class="main">
 
         <!-- ================= HOME ================= -->
-        <section class="home bd-grid" id="home">
+        <section class="hero" id="home">
 
-            <div class="home__information">
-                <span class="home__pressent anime-text">Hello, My name is</span>
-                <h1 class="home__title anime-text">Shraddha Takmoge</h1>
-                <span class="home__skill anime-text">Data Analysis & ML Enthusiast</span>
-                
-                <div>
-                    <a href="assets/DA-shra.pdf" class="home__button anime-text" download="Shraddha_Takmoge_CV">DOWNLOAD CV</a>
+    <div class="container">
+
+        <div class="hero-content">
+
+            <!-- LEFT -->
+
+            <div class="hero-left">
+
+    <h1 class="hero-title">
+    Shraddha Takmoge
+</h1>
+
+    <p class="hero-role">
+AI / ML Engineer
+</p>
+   <p class="hero-description">
+Building production-ready AI applications using Machine Learning,
+Deep Learning, LLMs, RAG and MLOps. Passionate about solving
+real-world problems through scalable intelligent systems.
+</p>
+
+    <div class="button-group">
+
+        <a href="assets/DA-shra.pdf"
+           download
+           class="btn btn-primary">
+
+            Download Resume
+
+        </a>
+
+        <a href="#projects"
+           class="btn btn-secondary">
+
+            Explore Projects
+
+        </a>
+
+    </div>
+
+   <div class="hero-stats">
+
+    <div class="hero-stat">
+        <h3>Machine</h3>
+        <span>Learning</span>
+    </div>
+
+    <div class="hero-stat">
+        <h3>Deep</h3>
+        <span>Learning</span>
+    </div>
+
+    <div class="hero-stat">
+        <h3>LLMs</h3>
+        <span>& RAG</span>
+    </div>
+
+    <div class="hero-stat">
+        <h3>MLOps</h3>
+        <span>Production</span>
+    </div>
+
+</div>
+
+
+</div>
+            <!-- RIGHT -->
+
+            <div class="hero-right">
+
+    <div class="hero-image-wrapper">
+
+        <div class="hero-image">
+
+            <img src="assets/img/img.jpeg" alt="Shraddha">
+
+        </div>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+<!--==================== ABOUT ====================-->
+
+<section class="about section" id="about">
+
+    <div class="container">
+
+        <div class="section__header">
+
+            <span class="section__subtitle">
+                About Me
+            </span>
+
+            <h2 class="section__title">
+                Building Intelligent Systems
+            </h2>
+
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-left">
+
+                <div class="about-image">
+
+                    <img src="assets/img/me.jpeg" alt="Profile">
+
                 </div>
+
             </div>
 
-            <div class="home__img">
-                <img src="assets/img/img.jpeg" alt="">
-            </div>
+            <div class="about-right">
 
-            <div class="home__exploring anime-text">
-                <span class="explore__label">Currently Exploring</span>
-                <div class="explore__tags">
-                    <span>mlflow</span>
-                    <span>Docker</span>
-                    <span>FastAPI</span>
+                <h3>
+                    AI / ML Engineer passionate about solving real-world problems.
+                </h3>
+
+                <p>
+                    I enjoy building end-to-end AI applications—from data
+                    preprocessing and model training to deployment using modern
+                    MLOps practices. My interests include Machine Learning,
+                    Deep Learning, Large Language Models, Retrieval-Augmented
+                    Generation, and scalable AI systems.
+                </p>
+
+                <p>
+                    I believe AI should not only achieve high accuracy but also
+                    be reliable, explainable, and production-ready.
+                </p>
+
+                <div class="about-stats">
+
+                    <div class="stat-card">
+
+                        <h2>10+</h2>
+
+                        <span>Projects</span>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h2>9.25</h2>
+
+                        <span>CGPA</span>
+
+                    </div>
+
+                    <div class="stat-card">
+
+                        <h2>2026</h2>
+
+                        <span>Graduate</span>
+
+                    </div>
+
                 </div>
+
             </div>
 
-        </section>
-
-<!-- ================= ABOUT ================= -->
-<section class="section about" id="about">
-    <h2 class="section-title">About Me</h2>
-
-    <div class="about__container bd-grid">
-
-        <div class="about__content">
-    <h3 class="about__subtitle">
-        Data Analysis & ML Enthusiast
-    </h3>
-
-    <p class="about__text">
-        I specialize in transforming raw data into 
-        <span class="highlight">actionable insights</span> through analytics, visualization, and machine learning.
-    </p>
-
-    <p class="about__text">
-        My work involves analyzing complex datasets, uncovering hidden patterns, and building 
-        <span class="highlight">machine learning models</span> to solve real-world business and prediction problems.
-    </p>
-
-    <p class="about__text">
-        Using tools like <span class="highlight">Excel, SQL, Python, Power BI, and Scikit-learn</span>, 
-        I build dashboards, perform data analysis, and develop intelligent data-driven solutions.
-    </p>
-</div>
-        <div class="about__stats">
-    <div class="about__card">
-        <ion-icon name="analytics-outline"></ion-icon>
-        <h3>5+</h3>
-        <span>Core Tools</span>
-    </div>
-
-    <div class="about__card">
-        <ion-icon name="folder-open-outline"></ion-icon>
-        <h3>6+</h3>
-        <span>Projects Completed</span>
-    </div>
-
-    <div class="about__card">
-        <ion-icon name="bar-chart-outline"></ion-icon>
-        <h3>10+</h3>
-        <span>Datasets Analyzed</span>
-    </div>
-</div>
-
-    </div>
-</section>
-
-<!-- ================= SKILLS ================= -->
-<section class="section skills" id="skills">
-    <h2 class="section-title">Skills</h2>
-
-    <div class="skills__container">
-
-    <div class="skills__category">
-        <h3>Analytics & Database</h3>
-        <div class="skills__tags">
-            <span class="skill__tag">Advanced Excel</span>
-            <span class="skill__tag">SQL (PostgreSQL)</span>
-            <span class="skill__tag">Power BI ( Power Query, DAX )</span>
-        </div>
-    </div>
-
-    <div class="skills__category">
-        <h3>Programming & Libraries</h3>
-        <div class="skills__tags">
-            <span class="skill__tag">Python</span>
-            <span class="skill__tag">Pandas</span>
-            <span class="skill__tag">Scikit-Learn</span>
-            <span class="skill__tag">NumPy</span>
-        </div>
-    </div>
-
-    <div class="skills__category">
-        <h3>Machine Learning & MLOps</h3>
-        <div class="skills__tags">
-            <span class="skill__tag">Regression</span>
-            <span class="skill__tag">Classification</span>
-            <span class="skill__tag">XGBoost</span>
-            <span class="skill__tag">Docker</span>
-            <span class="skill__tag">mlflow</span>
-            <span class="skill__tag">FastAPI</span>
-            <span class="skill__tag">CI/CD</span>
-        </div>
-    </div>
-
-    <div class="skills__category">
-        <h3>Visualization</h3>
-        <div class="skills__tags">
-            <span class="skill__tag">Matplotlib</span>
-            <span class="skill__tag">Seaborn</span>
-            <span class="skill__tag">Dashboarding</span>
-        </div>
-    </div>
-
-</div>
-</section>
-
-<!-- ================= ACHIEVEMENTS ================= -->
-<section class="section achievements" id="achievements">
-    <h2 class="section-title">Milestones</h2>
-
-    <!-- ================= HACKATHON ================= -->
-    <div class="achievement-wrapper">
-
-        <div class="achievement-content">
-    <span class="achievement-tag">🏆 Hackathon Experience</span>
-    
-    <h2>Code4Change Hackathon (Data science)</h2>
-    
-    <p>
-        Participated in hackathon where collaborated to solve problem statement-1 
-        <span class="highlight">Reimaging the National Judicial Data Grid  (NJDG)</span> 
-        addressing impactful social challenges. This experience enhanced my 
-        <span class="highlight">problem-solving mindset</span> and 
-        my hands on experience on data analytics tasks 
-    </p>
-
-    <div class="achievement-points">
-        <div class="point">✔ Team-Based Problem Solving</div>
-        <div class="point">✔ Real-World Solution Development</div>
-        <div class="point">✔ Working with Judicial Data </div>
-        <div class="point">✔ Certificate of Participation</div>
-    </div>
-</div>
-
-        <div class="achievement-gallery">
-            <img src="assets/img/hack1.jpeg" alt="">
-            <img src="assets/img/hack2.jpeg" alt="">
-            <img src="assets/img/hack3.jpeg" alt="">
-            <img src="assets/img/hack4.jpeg" alt="">
-        </div>
-
-    </div>
-
-    <!-- ================= AMADEUS ================= -->
-    <div class="achievement-wrapper reverse">
-
-       <div class="achievement-content right-side">
-    
-    <span class="achievement-tag corporate">🏢WIE Program</span>
-
-    <h2>Amadeus Company Visit</h2>
-
-    <p class="lead-text">
-        Selected under the <span class="highlight">Women in Engineering Scholarship Program(WIE)</span>, 
-        I had the opportunity to visit <span class="highlight">Amadeus</span> — 
-        a global leader in travel technology.
-    </p>
-
-    <p>
-        During the visit, I engaged with industry professionals, explored 
-        enterprise-level systems, and gained real-world insights into 
-        large-scale software solutions powering the aviation industry.
-    </p>
-
-    <div class="achievement-points">
-        <div class="point">✔ Industry Exposure</div>
-        <div class="point">✔ Corporate Mentorship Interaction</div>
-        <div class="point">✔ Enterprise Software Insights</div>
-        <div class="point">✔ Professional Networking</div>
-    </div>
-
-</div>
-        <div class="achievement-gallery">
-            <img src="assets/img/amadeus3.jpeg" alt="">
-            <img src="assets/img/amadeus2.jpeg" alt="">
-            <img src="assets/img/amadeus1.jpeg" alt="">
-            <img src="assets/img/amadeus4.jpeg" alt="">
         </div>
 
     </div>
 
 </section>
 
-<!-- ================= PROJECTS ================= -->
-<section class="section projects" id="projects">
-    <h2 class="section-title">Projects</h2>
+<!--==================== SKILLS ====================-->
 
-    <div class="projects__container bd-grid">
+<section class="skills section" id="skills">
 
-        <!-- PROJECT 1 -->
+    <div class="container">
 
-         <div class="project__card">
+        <div class="section__header">
 
-        <div class="project__image">
-            <img src="assets/img/dash.png" alt="Power BI Dashboard">
-        </div>
+            <span class="section__subtitle">
+                Technical Expertise
+            </span>
 
-        <div class="project__content">
+            <h2 class="section__title">
+                Skills & Technologies
+            </h2>
 
-            <h3 class="project__title">Legal Case Analytics Dashboard</h3>
-
-            <p class="project__description">
-                Built an interactive analytics dashboard to monitor legal case performance,
-                workload distribution, and case resolution trends using Power BI.
+            <p class="section__description">
+                Technologies I use to build scalable AI & Machine Learning
+                applications.
             </p>
 
-            <div class="project__tags">
-                <span>Power BI</span>
-                <span>EDA</span>
-                <span>Data Visualization</span>
+        </div>
+
+        <div class="skills-grid">
+
+            <!-- Programming -->
+
+            <div class="skill-card">
+
+                <h3>Programming</h3>
+
+                <div class="skill-tags">
+
+                    <span>Python</span>
+                    <span>SQL</span>
+                    <span>C++</span>
+                    <span>Java</span>
+
+                </div>
+
             </div>
 
-            <div class="project__buttons">
-                <a href="https://github.com/shraddhatakmoge/powerbi-lawyer"
-                       class="project__btn project__btn--outline"
-                       target="_blank">
-                       GitHub
-                    </a>
+            <!-- Machine Learning -->
 
-             
+            <div class="skill-card">
 
-                <a href="https://app.powerbi.com/view?r=eyJrIjoiNjc5MDQzMjEtYzE5Ny00NjYwLWJmZDItYmY1NDAxMjA3MTY2IiwidCI6IjA4NzI3N2ViLTk5YzgtNDgzMy1iY2FlLTU2MWUzMjhlNWRjZCJ9"
-                   class="project__btn"
-                   target="_blank">
-                   Live Demo
-                </a>
+                <h3>Machine Learning</h3>
+
+                <div class="skill-tags">
+
+                    <span>Scikit-Learn</span>
+                    <span>XGBoost</span>
+                    <span>Pandas</span>
+                    <span>NumPy</span>
+
+                </div>
+
+            </div>
+
+            <!-- Deep Learning -->
+
+            <div class="skill-card">
+
+                <h3>Deep Learning</h3>
+
+                <div class="skill-tags">
+
+                    <span>PyTorch</span>
+                    
+                    <span>CNN</span>
+                    <span>Transformers</span>
+
+                </div>
+
+            </div>
+
+            <!-- Generative AI -->
+
+            <div class="skill-card">
+
+                <h3>Generative AI</h3>
+
+                <div class="skill-tags">
+
+                    <span>LLMs</span>
+                    <span>RAG</span>
+                    <span>LangChain</span>
+                    <span>Hugging Face</span>
+
+                </div>
+
+            </div>
+
+            <!-- MLOps -->
+
+            <div class="skill-card">
+
+                <h3>MLOps</h3>
+
+                <div class="skill-tags">
+
+                    <span>Docker</span>
+                    <span>MLflow</span>
+                    <span>CI/CD</span>
+                    <span>GitHub Actions</span>
+
+                </div>
+
+            </div>
+
+            <!-- Backend -->
+
+            <div class="skill-card">
+
+                <h3>Backend</h3>
+
+                <div class="skill-tags">
+
+                    <span>FastAPI</span>
+                    <span>Flask</span>
+                    <span>REST API</span>
+                    <span>Streamlit</span>
+
+                </div>
 
             </div>
 
         </div>
 
     </div>
-    
-        <!-- PROJECT 2 -->
-        <div class="project__card">
 
-            <div class="project__image">
-                <img src="assets/img/churn.png" alt="SQL Analysis">
-            </div>
+</section>
+<!--==================== MILESTONES ====================-->
 
-            <div class="project__content">
+<section class="milestones section" id="milestones">
 
-                <h3 class="project__title">Customer Churn Analysis & Prediction </h3>
+    <div class="container">
 
-                <p class="project__description">
-                  Built an end-to-end machine learning project to analyze and predict telecom customer churn using Python and Scikit-learn. Performed data cleaning, exploratory data analysis, and feature engineering to identify key churn drivers such as contract type, tenure, and monthly charges. Developed a Random Forest model and deployed an interactive Streamlit app for real-time churn prediction and risk assessment.</p>
+        <div class="section__header">
 
+            <span class="section__subtitle">
+                Journey
+            </span>
 
-                
+            <h2 class="section__title">
+                Experience & Milestones
+            </h2>
 
-                <div class="project__tags">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>Scikit-learn</span>
-                    <span>EDA</span>
-                </div>
-
-                <div class="project__buttons">
-
-                    <a href="https://github.com/shraddhatakmoge/Cutomer_churn"
-                       class="project__btn project__btn--outline"
-                       target="_blank">
-                       GitHub
-                    </a>
-
-                    <a href="https://customerchurn-shra.streamlit.app/"
-                       class="project__btn"
-                       target="_blank">
-                       Live Demo
-                    </a>
-
-                </div>
-
-            </div>
+            <p class="section__description">
+                My journey from learning AI and Machine Learning to building
+                real-world projects and participating in hackathons.
+            </p>
 
         </div>
 
-        <!-- PROJECT 3-->
-        <div class="project__card">
+        <div class="timeline">
 
-            <div class="project__image">
-                <img src="assets/img/movie-recommender.png" alt="SQL Analysis">
-            </div>
+            <!-- Item 1 -->
 
-            <div class="project__content">
+            <div class="timeline-item">
 
-                <h3 class="project__title">Movie Recommendation System </h3>
+    <div class="timeline-dot"></div>
 
-                <p class="project__description">
-                   Built a content-based movie recommendation system that suggests similar movies based on metadata such as genres, keywords, cast, and overview. The system processes movie data using Pandas and applies text vectorization and cosine similarity to compute similarity between movies.</p>
+    <div class="timeline-content milestone-card"
+         data-modal="hackathon">
 
+        <!-- <span class="timeline-year">
+            2025
+        </span> -->
 
-                
+        <h3>
+            🏆 Code4Change Hackathon
+        </h3>
 
-                <div class="project__tags">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>TMDB API</span>
-                    <span>Streamlit</span>
-                </div>
-
-                <div class="project__buttons">
-
-                    <a href="https://github.com/shraddhatakmoge/movie_recommender_system"
-                       class="project__btn project__btn--outline"
-                       target="_blank">
-                       GitHub
-                    </a>
-
-                    <a href="https://movierecommendersystem-posters.streamlit.app/"
-                       class="project__btn"
-                       target="_blank">
-                       Live Demo
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- PROJECT 4 -->
-        <div class="project__card">
-
-            <div class="project__image">
-                <img src="assets/img/silentmodel.png" alt="Machine Learning Model">
-            </div>
-
-            <div class="project__content">
-
-                <h3 class="project__title">When model should stay silent</h3>
-
-                <p class="project__description">
-                    Developed a machine learning classification system that predicts breast cancer diagnosis while incorporating a selective prediction mechanism. The model only returns predictions when its confidence exceeds a defined threshold, reducing the risk of unreliable outputs.
-                </p>
-
-               
-                <div class="project__tags">
-                    <span>Python</span>
-                    <span>Scikit-Learn</span>
-                    <span>Machine Learning</span>
-                </div>
-
-                <div class="project__buttons">
-
-                    <a href="https://github.com/shraddhatakmoge/when_models_should_stay_silent"
-                       class="project__btn project__btn--outline"
-                       target="_blank">
-                       GitHub
-                    </a>
-
-                    <a href="https://whenmodelsshouldstaysilent-ay2frbdwp6mhthemwxuyad.streamlit.app/"
-                       class="project__btn"
-                       target="_blank">
-                       Live Demo
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-        <div class="project__card">
-
-   <div class="project__image project__image--double">
-    <img src="assets/img/credit1.png" alt="CreditLens Executive Dashboard">
-
-</div>
-    <div class="project__content">
-
-        <h3 class="project__title">CreditLens – Credit Risk Analytics Dashboard</h3>
-        
-
-        <p class="project__description">
-            Built an end-to-end credit risk analytics dashboard on 255K+ loan records using Python, 
-            Pandas, SQL, and Power BI to analyze borrower risk, default behavior, and key financial indicators. 
-            Identified major default drivers such as low credit score and high debt-to-income ratio through 
-            interactive multi-page visual analytics.
+        <p>
+            National Data Science Hackathon
         </p>
 
-        <div class="project__tags">
-            <span>Python</span>
-            <span>Pandas</span>
-            <span>SQL</span>
-            <span>Power BI</span>
-        </div>
-
-        <div class="project__buttons">
-
-            <a href="https://github.com/shraddhatakmoge/CreditLens/tree/main"
-               class="project__btn project__btn--outline"
-               target="_blank">
-               GitHub
-            </a>
-
-            <a href="assets/creditlens.pdf"
-               class="project__btn"
-               target="_blank">
-               View Dashboard
-            </a>
-
-        </div>
+        <span class="view-more">
+            View Journey →
+        </span>
 
     </div>
 
 </div>
 
-   
-            <!-- PROJECT 6 -->
-            <div class="project__card">
 
-            <div class="project__image">
-                <img src="assets/img/madhav-dashboard.png" alt="Sales Dashboard">
-            </div>
+            <!-- Item 2 -->
 
-            <div class="project__content">
+            <div class="timeline-item">
 
-                <h3 class="project__title">Sales Data Analysis Dashboard</h3>
+    <div class="timeline-dot"></div>
 
-                <p class="project__description">
-                    Built an interactive dashboard using Python, Pandas and Power BI
-                    to analyze sales trends, customer behavior, and revenue insights.
-                </p>
+    <div class="timeline-content milestone-card"
+         data-modal="amadeus">
 
-                <ul class="project__highlights">
-                    <li>Cleaned and transformed raw retail data</li>
-                    <li>Identified top-performing products</li>
-                    <li>Built interactive Power BI dashboard</li>
-                </ul>
+        <h3>
+            🎯 Amadeus Company Visit
+        </h3>
 
-                <div class="project__tags">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>Power BI</span>
-                </div>
+        <p>
+            Women in Engineering (WIE) Scholarship Program
+        </p>
 
-                <div class="project__buttons">
+        <span class="view-more">
+            View Journey →
+        </span>
 
-                   
+    </div>
 
-                    <a href="assets/madhav_ecommerce_project.pdf"
-   class="project__btn"
-   download>
-   View Dashboard
-</a>
-
-                </div>
-
-            </div>
+</div>
 
         </div>
 
-</div>
-   
+    </div>
+
 </section>
 
-<!-- ================= CONTACT ================= -->
-<section class="section contact" id="contact">
-    <h2 class="section-title">Let’s Work Together</h2>
+<!--==================== PROJECTS ====================-->
 
-    <div class="contact__subtitle">
-        <p>I’m open to Data Analyst & Machine Learning opportunities.</p>
-        <p>Feel free to reach out — I’d love to connect!</p>
+<section class="projects section" id="projects">
+
+    <div class="container">
+
+        <div class="section__header">
+
+            <span class="section__subtitle">
+                Portfolio
+            </span>
+
+            <h2 class="section__title">
+                Featured Projects
+            </h2>
+
+            <p class="section__description">
+                A selection of projects showcasing Machine Learning,
+                Generative AI, MLOps, and Full Stack development.
+            </p>
+
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project Card -->
+
+            <article class="project-card">
+
+                <div class="project-image">
+
+                    <img src="assets/img/trustai.png"
+                         alt="TrustAI">
+
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">
+
+                        ML • MLOps
+
+                    </span>
+
+                    <h3 class="project-title">
+
+                        TrustAI
+
+                    </h3>
+
+                    <p class="project-description">
+
+                        Confidence-aware AI system with probability
+                        calibration, explainability, FastAPI deployment,
+                        Docker, and MLflow integration.
+
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>Python</span>
+                        <span>XGBoost</span>
+                        <span>MLflow</span>
+                        <span>Docker</span>
+                        <span>FastAPI</span>
+
+                    </div>
+
+                    <div class="project-links">
+
+                        <a href="https://github.com/shraddhatakmoge/TrustAI" target="_blank">GitHub</a>
+
+                        <a href="#">Live Demo</a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+            <!-- More cards here -->
+
+        </div>
+
     </div>
 
-    <div class="contact__container bd-grid">
+</section>
 
-        <div class="contact__card">
-            <div class="contact__icon">
-                <ion-icon name="mail-outline"></ion-icon>
-            </div>
-            <h3>Email</h3>
-            <a href="mailto:shraddhatakmoge@gmail.com">
-                shraddhatakmoge@gmail.com
-            </a>
+<!--==================== CONTACT ====================-->
+
+<section class="contact section" id="contact">
+
+    <div class="container">
+
+        <div class="section__header">
+
+            <span class="section__subtitle">
+                Contact
+            </span>
+
+            <h2 class="section__title">
+                Let's Build Something Amazing
+            </h2>
+
+            <p class="section__description">
+
+                Whether it's an AI project, collaboration, or opportunity,
+                feel free to reach out.
+
+            </p>
+
         </div>
 
-        <div class="contact__card">
-            <div class="contact__icon">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </div>
-            <h3>LinkedIn</h3>
-            <a href="https://www.linkedin.com/in/shraddha-takmoge/" target="_blank">
-                linkedin.com/in/shraddha-takmoge
-            </a>
+       <div class="contact-content">
+
+    <a href="mailto:shraddhatakmoge@gmail.com"
+       class="contact-card"
+       target="_blank">
+
+        <div class="contact-icon">
+            <ion-icon name="mail-outline"></ion-icon>
         </div>
 
-        <div class="contact__card">
-            <div class="contact__icon">
-                <ion-icon name="logo-github"></ion-icon>
-            </div>
-            <h3>GitHub</h3>
-            <a href="https://github.com/shraddhatakmoge" target="_blank">
-                github.com/shraddhatakmoge
-            </a>
+        <h3>Email</h3>
+
+        <p>Reach me directly</p>
+
+    </a>
+
+    <a href="https://www.linkedin.com/in/shraddha-takmoge/"
+       target="_blank"
+       class="contact-card">
+
+        <div class="contact-icon">
+            <ion-icon name="logo-linkedin"></ion-icon>
         </div>
+
+        <h3>LinkedIn</h3>
+
+        <p>Let's connect</p>
+
+    </a>
+
+    <a href="https://github.com/shraddhatakmoge"
+       target="_blank"
+       class="contact-card">
+
+        <div class="contact-icon">
+            <ion-icon name="logo-github"></ion-icon>
+        </div>
+
+        <h3>GitHub</h3>
+
+        <p>View my projects</p>
+
+    </a>
+
+</div>
 
     </div>
 
 </section>
 
 </main>
+<div class="milestone-modal" id="hackathon">
+
+    <div class="modal-box">
+
+        <button class="close-modal">×</button>
+
+<h2>🏆 Code4Change Hackathon</h2>
+
+<p class="modal-subtitle">
+    National Data Science Hackathon
+</p>
+
+<div class="hackathon-info">
+
+    <div class="info-card">
+        <h4>📅 Duration</h4>
+        <span>2 Days</span>
+    </div>
+
+    <div class="info-card">
+        <h4>👥 Team</h4>
+        <span>5 Members</span>
+    </div>
+
+    <div class="info-card">
+        <h4>📍 Location</h4>
+        <span>Goa</span>
+    </div>
+
+    <div class="info-card">
+        <h4>🎯 Theme</h4>
+        <span>Reimagining NJDG</span>
+    </div>
+
+</div>
+
+<h3>Overview</h3>
+
+<p>
+Collaborated in the Code4Change National Data Science Hackathon,
+where our team developed a data-driven solution for the National
+Judicial Data Grid (NJDG). The event challenged participants to
+solve real-world social impact problems using data science and
+machine learning.
+</p>
+
+<h3>Problem Statement</h3>
+
+<p>
+Reimagine the National Judicial Data Grid by analyzing judicial
+data and presenting actionable insights that could improve
+decision-making and transparency.
+</p>
+
+<h3>My Contributions</h3>
+
+<ul>
+
+<li>✔ Data preprocessing and cleaning</li>
+
+<li>✔ Feature engineering</li>
+
+<li>✔ Exploratory Data Analysis</li>
+
+<li>✔ Model development</li>
+
+<li>✔ Final presentation</li>
+
+</ul>
+
+<h3>Technologies Used</h3>
+
+<div class="project-tech">
+
+<span>Python</span>
+
+<span>Pandas</span>
+
+<span>Scikit-Learn</span>
+
+<span>Power BI</span>
+
+</div>
+
+<h3>Key Learnings</h3>
+
+<ul>
+
+<li>✔ Team collaboration under deadlines</li>
+
+<li>✔ Solving real-world datasets</li>
+
+<li>✔ Presenting technical work confidently</li>
+
+<li>✔ End-to-end ML workflow</li>
+
+</ul>
+
+<h3>Event Gallery</h3>
+
+<div class="modal-gallery">
+
+    <div class="gallery-item">
+
+        <img src="assets/img/hackathon/hack2.jpeg">
+
+    
+    </div>
+
+    <div class="gallery-item">
+
+        <img src="assets/img/hackathon/hack4.jpeg">
+
+       
+
+    </div>
+
+    <div class="gallery-item">
+
+        <img src="assets/img/hackathon/hack3.jpeg">
+
+      
+    </div>
+
+    <div class="gallery-item">
+
+        <img src="assets/img/hackathon/hack1.jpeg">
+
+        
+
+    </div>
+
+</div>
+
+    </div>
+
+</div>
+<div class="milestone-modal" id="amadeus">
+
+<div class="modal-box">
+
+<button class="close-modal">×</button>
+
+<h2>🎯 Amadeus Company Visit</h2>
+
+<p class="modal-subtitle">
+
+Women in Engineering (WIE) Scholarship Program
+
+</p>
+
+<div class="hackathon-info">
+
+<div class="info-card">
+
+<h4>📅 Year</h4>
+
+<span>2025</span>
+
+</div>
+
+<div class="info-card">
+
+<h4>🏢 Company</h4>
+
+<span>Amadeus</span>
+
+</div>
+
+<div class="info-card">
+
+<h4>🎓 Program</h4>
+
+<span>WIE (Women In Engineering)</span>
+
+</div>
+
+<div class="info-card">
+
+<h4>📍 Type</h4>
+
+<span>Program Part</span>
+
+</div>
+
+</div>
+
+<h3>Overview</h3>
+
+<p>
+
+Selected under the Women in Engineering Scholarship Program (WIE),
+I had the opportunity to visit the Amadeus India Development Centre,
+where I explored enterprise software development, interacted with
+industry professionals, and gained first-hand exposure to how
+large-scale technology products are designed and built.
+
+</p>
+
+<h3>Highlights</h3>
+
+<ul>
+
+<li>✔ Industry Exposure</li>
+
+<li>✔ Corporate Mentorship Sessions</li>
+
+<li>✔ Enterprise Software Architecture</li>
+
+<li>✔ Product Development Insights</li>
+
+<li>✔ Professional Networking</li>
+
+</ul>
+
+<h3>Key Learnings</h3>
+
+<ul>
+
+<li>✔ Enterprise Software Development</li>
+
+<li>✔ Software Engineering Best Practices</li>
+
+<li>✔ Agile Product Teams</li>
+
+<li>✔ Career Guidance from Engineers</li>
+
+<li>✔ Importance of Collaboration</li>
+
+</ul>
+
+<h3>Gallery</h3>
+
+<div class="modal-gallery">
+
+<div class="gallery-item">
+
+<img src="assets/img/amadeus/amadeus1.jpeg">
+
+
+
+</div>
+
+<div class="gallery-item">
+
+<img src="assets/img/amadeus/amadeus2.jpeg">
+
+
+
+</div>
+
+<div class="gallery-item">
+
+<img src="assets/img/amadeus/amadeus3.jpeg">
+
+
+
+</div>
+
+<div class="gallery-item">
+
+<img src="assets/img/amadeus/amadeus4.jpeg">
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
 <script src="assets/js/main.js"></script>

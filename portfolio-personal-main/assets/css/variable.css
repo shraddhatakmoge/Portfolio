@@ -1,0 +1,195 @@
+/* ==========================================
+   DESIGN SYSTEM VARIABLES
+   AI / ML PORTFOLIO
+========================================== */
+
+:root{
+
+/* ==========================================
+   COLORS
+========================================== */
+
+/* Background */
+--bg-primary:#08080B;
+--bg-secondary:#111118;
+--bg-card:#17171F;
+--bg-card-hover:#1F1F2A;
+
+/* Primary Brand */
+--primary:#8B5CF6;
+--primary-light:#A78BFA;
+--primary-dark:#6D28D9;
+
+/* Accent */
+--accent:#38BDF8;
+--accent-light:#7DD3FC;
+
+/* Text */
+--text-primary:#F8FAFC;
+--text-secondary:#CBD5E1;
+--text-muted:#94A3B8;
+
+/* Borders */
+--border-color:rgba(255,255,255,.08);
+--border-light:rgba(255,255,255,.12);
+
+/* Glass */
+--glass-bg:rgba(255,255,255,.04);
+--glass-border:rgba(255,255,255,.08);
+
+/* ==========================================
+   TYPOGRAPHY
+========================================== */
+
+--font-heading:'Space Grotesk',sans-serif;
+--font-body:'Inter',sans-serif;
+--font-code:'JetBrains Mono',monospace;
+
+/* Font Sizes */
+
+--fs-xs:.75rem;
+--fs-sm:.875rem;
+--fs-base:1rem;
+--fs-lg:1.125rem;
+--fs-xl:1.25rem;
+--fs-2xl:1.5rem;
+--fs-3xl:2rem;
+--fs-4xl:2.75rem;
+--fs-5xl:3.5rem;
+--fs-6xl:5rem;
+
+/* Font Weights */
+
+--fw-regular:400;
+--fw-medium:500;
+--fw-semibold:600;
+--fw-bold:700;
+--fw-extra:800;
+
+/* ==========================================
+   SPACING
+========================================== */
+
+--space-1:.25rem;
+--space-2:.5rem;
+--space-3:.75rem;
+--space-4:1rem;
+--space-5:1.25rem;
+--space-6:1.5rem;
+--space-8:2rem;
+--space-10:2.5rem;
+--space-12:3rem;
+--space-16:4rem;
+--space-20:5rem;
+--space-24:6rem;
+--space-32:8rem;
+
+/* ==========================================
+   BORDER RADIUS
+========================================== */
+
+--radius-sm:8px;
+--radius-md:12px;
+--radius-lg:18px;
+--radius-xl:24px;
+--radius-2xl:32px;
+--radius-full:999px;
+
+/* ==========================================
+   SHADOWS
+========================================== */
+
+--shadow-sm:
+0 2px 10px rgba(0,0,0,.15);
+
+--shadow-md:
+0 10px 25px rgba(0,0,0,.25);
+
+--shadow-lg:
+0 20px 45px rgba(0,0,0,.35);
+
+--shadow-xl:
+0 30px 80px rgba(0,0,0,.45);
+
+--shadow-purple:
+0 0 40px rgba(139,92,246,.30);
+
+--shadow-purple-lg:
+0 0 80px rgba(139,92,246,.40);
+
+/* ==========================================
+   TRANSITIONS
+========================================== */
+
+--transition-fast:.2s ease;
+--transition:.35s ease;
+--transition-slow:.6s ease;
+
+/* ==========================================
+   Z INDEX
+========================================== */
+
+--z-back:-1;
+--z-normal:1;
+--z-tooltip:10;
+--z-fixed:100;
+--z-modal:1000;
+
+/* ==========================================
+   LAYOUT
+========================================== */
+
+--container-width:1200px;
+
+--header-height:72px;
+
+--section-padding:6rem;
+
+/* ==========================================
+   BLUR
+========================================== */
+
+--blur-sm:8px;
+--blur-md:18px;
+--blur-lg:40px;
+
+/* ==========================================
+   GRADIENTS
+========================================== */
+
+--gradient-primary:
+linear-gradient(
+135deg,
+#8B5CF6 0%,
+#7C3AED 50%,
+#4F46E5 100%
+);
+
+--gradient-card:
+linear-gradient(
+180deg,
+rgba(255,255,255,.05),
+rgba(255,255,255,.02)
+);
+
+--gradient-text:
+linear-gradient(
+90deg,
+#FFFFFF,
+#C4B5FD
+);
+
+/* ==========================================
+   GLOWS
+========================================== */
+
+--glow-purple:
+0 0 25px rgba(139,92,246,.45);
+
+--glow-blue:
+0 0 25px rgba(56,189,248,.35);
+
+--glow-large:
+0 0 120px rgba(139,92,246,.25);
+
+}

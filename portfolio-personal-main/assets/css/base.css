@@ -1,0 +1,291 @@
+/* ===========================
+   GOOGLE FONTS
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+
+/* ===========================
+   RESET
+=========================== */
+
+*,
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* ===========================
+   ROOT HTML
+=========================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+    font-size:16px;
+
+}
+
+
+/* ===========================
+   BODY
+=========================== */
+body{
+
+    min-height:100vh;
+
+    background:
+        linear-gradient(
+            rgba(8,8,11,.88),
+            rgba(8,8,11,.92)
+        ),
+        url("../img/ai-bg.png");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    background-attachment:fixed;
+
+    color:var(--text-primary);
+
+}
+
+/* ===========================
+   TYPOGRAPHY
+=========================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-family:var(--font-heading);
+
+    font-weight:700;
+
+    line-height:1.1;
+
+    color:var(--text-primary);
+
+}
+
+p{
+
+    color:var(--text-secondary);
+
+}
+
+small{
+
+    color:var(--text-muted);
+
+}
+
+
+/* ===========================
+   LINKS
+=========================== */
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+/* ===========================
+   LISTS
+=========================== */
+
+ul,
+ol{
+
+    list-style:none;
+
+}
+
+
+/* ===========================
+   IMAGES
+=========================== */
+
+img{
+
+    display:block;
+
+    width:100%;
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+button{
+
+    border:none;
+
+    outline:none;
+
+    cursor:pointer;
+
+    background:none;
+
+    font-family:inherit;
+
+}
+
+
+/* ===========================
+   INPUTS
+=========================== */
+
+input,
+textarea{
+
+    border:none;
+
+    outline:none;
+
+    font-family:inherit;
+
+}
+
+
+/* ===========================
+   SELECTION
+=========================== */
+
+::selection{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:var(--bg-primary);
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:var(--primary);
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:var(--primary-light);
+
+}
+
+
+/* ===========================
+   UTILITIES
+=========================== */
+
+.container{
+
+    width:min(1200px,92%);
+
+    margin-inline:auto;
+
+}
+
+.section{
+
+    padding:7rem 0;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:4rem;
+
+    font-size:clamp(2rem,5vw,3.5rem);
+
+}
+
+.gradient-text{
+
+    background:linear-gradient(
+        90deg,
+        var(--primary),
+        var(--primary-light)
+    );
+
+    -webkit-background-clip:text;
+
+    -webkit-text-fill-color:transparent;
+
+}
+
+
+/* ===========================
+   GLASS EFFECT
+=========================== */
+
+.glass{
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    backdrop-filter:blur(16px);
+
+}
+
+
+/* ===========================
+   TRANSITIONS
+=========================== */
+
+*{
+
+    transition:
+
+        color .25s,
+
+        background .25s,
+
+        border-color .25s,
+
+        transform .25s,
+
+        box-shadow .25s;
+
+}
